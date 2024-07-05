@@ -1,0 +1,57 @@
+.nav{
+    display: flex;
+}
+
+.navbar-container{
+    width: 900px;
+    height: 600px;
+    background-image: url(../images/desktop-image-hero-1.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.nav-flex{
+    display: flex;
+    justify-content: center; 
+    min-height: 35px;
+}
+img{
+    width: 65px;
+     height: 14px;
+     padding-top: 20px;
+}
+
+ul{
+    list-style: none;
+    color: white;
+    display: flex;
+    gap: 10px;
+}
+.info-container{
+    width: 30%;
+}
+
+h1{
+    padding-top: 50px;
+    padding-left: 50px ;
+    padding-right: 28px;
+}
+
+.p1{
+    padding: 10px;
+    padding-top: 19px;
+    padding-left: 50px ;
+    color: gray;
+}
+
+h2{
+    color: black ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80%;
+    font-weight: 100;
+    padding-left: 50px;
+    letter-spacing: 10px; 
+    
+}
+
+
