@@ -1,57 +1,86 @@
-.nav{
-    display: flex;
+.nav {
+  display: flex;
 }
 
-.navbar-container{
-    width: 900px;
-    height: 600px;
-    background-image: url(../images/desktop-image-hero-1.jpg);
-    background-size: cover;
-    display: flex;
-    justify-content: center;
+.navbar-container {
+  width: 900px;
+  height: 600px;
+  background-image: url(../images/desktop-image-hero-1.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
 }
-.nav-flex{
-    display: flex;
-    justify-content: center; 
-    min-height: 35px;
+.nav-flex {
+  display: flex;
+  justify-content: center;
+  min-height: 35px;
 }
-img{
-    width: 65px;
-     height: 14px;
-     padding-top: 20px;
-}
-
-ul{
-    list-style: none;
-    color: white;
-    display: flex;
-    gap: 10px;
-}
-.info-container{
-    width: 30%;
+img {
+  width: 65px;
+  height: 14px;
+  padding-top: 20px;
 }
 
-h1{
-    padding-top: 50px;
-    padding-left: 50px ;
-    padding-right: 28px;
+ul {
+  list-style: none;
+  color: white;
+  display: flex;
+  gap: 10px;
+}
+.info-container {
+  width: 30%;
 }
 
-.p1{
-    padding: 10px;
-    padding-top: 19px;
-    padding-left: 50px ;
-    color: gray;
+h1 {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 28px;
 }
 
-h2{
-    color: black ;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 80%;
-    font-weight: 100;
-    padding-left: 50px;
-    letter-spacing: 10px; 
-    
+.p1 {
+  padding: 10px;
+  padding-top: 19px;
+  padding-left: 50px;
+  color: gray;
 }
 
+h2 {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 80%;
+  font-weight: 100;
+  padding-left: 50px;
+  letter-spacing: 10px;
+}
 
+.arrow {
+  width: 50px;
+  min-height: 10px;
+}
+
+.left {
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  padding: 25px;
+  margin-top: 150px;
+}
+
+.right{
+    width: 25px;
+    height: 25px  ;
+    background-color: black;
+    padding: 25px;
+   margin-top: 150px;
+}
+
+.room{
+    padding-right: 50px;
+
+}
+
+.nav2{
+    justify-content: space-between;
+    gap: 25px;
+    padding-right: 200px;
+}
